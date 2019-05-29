@@ -50,7 +50,7 @@ int main()
 	//랜덤으로 다섯개 메모리 셋팅
 	for (int j = 0; j < NUM_X; j++)
 	{
-		if (deleteNode(head->next, rand() % 20) == 0)
+		if (deleteNode(head, rand() % 20) == 0)
 			j--;
 	}
 	printList(head);
